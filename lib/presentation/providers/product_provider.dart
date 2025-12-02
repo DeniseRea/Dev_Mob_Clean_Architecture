@@ -26,4 +26,20 @@ class ProductProvider extends ChangeNotifier {
   });
 
 
+  List get Products => getProductsUseCase();
+  void addProduct(product){
+    addProductUseCase(product);
+    notifyListeners(); //notifica a los widgets que escuchan sobre cambios en el estado.
+  }
+
+  void deleteProduct(String id){
+    deleteProductUseCase(id);
+    notifyListeners();
+  }
+
+
+  void updateProduct(product) {
+    updateProductUseCase(product);
+    notifyListeners();
+  }
 }
