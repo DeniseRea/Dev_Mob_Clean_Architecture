@@ -8,4 +8,6 @@ class Products {
     required this.name,
     required this.valor,
   });
+
+  // las entidades deben ser lo más limpias posibles, sin lógica de negocio ni dependencias externas
 }
