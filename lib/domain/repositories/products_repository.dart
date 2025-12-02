@@ -1,5 +1,7 @@
 /*
 *  Repository for managing product data.
+*
+*  Llamado contrato del repositorio, se implementa en la capa de datos
 * */
 
 import '../entities/products.dart';
