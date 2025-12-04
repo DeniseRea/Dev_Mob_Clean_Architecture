@@ -10,4 +10,8 @@ class Products {
   });
 
   // las entidades deben ser lo más limpias posibles, sin lógica de negocio ni dependencias externas
+
+  /**
+    Esto es para ver como funciona el codespace
+   */
 }
